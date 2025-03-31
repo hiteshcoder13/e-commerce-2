@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect("mongodb://localhost:27017/practice2").then(()=>{
+mongoose.connect("mongodb+srv://hiteshnagpal:Hunnynagpal%402006@cluster0.jzero.mongodb.net/practice2?retryWrites=true&w=majority").then(()=>{
     console.log("Connected to MongoDB");
 }).catch(err => console.log(err));
 const OrderSchema = new mongoose.Schema({
